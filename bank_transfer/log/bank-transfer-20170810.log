@@ -1,0 +1,9 @@
+[2017-08-10 18:18:11,986]  testing.INFO:line_48  select id from users where id = 1
+[2017-08-10 18:18:11,986]  testing.INFO:line_48  select id from users where id = 2
+[2017-08-10 18:18:11,987]  testing.INFO:line_63  select id from users where id = 1 and balance >= 10
+[2017-08-10 18:18:11,987]  testing.INFO:line_77  update users set balance = balance - 10 where id = 1
+[2017-08-10 18:18:11,987]  testing.INFO:line_92  update users set balance = balance + 10 where id = 2
+[2017-08-10 18:18:11,988]  testing.INFO:line_108  insert into fund_history (`from_user_id`, `target_user_id`, `transfer_money`) values( 1, 2, 10 )
+[2017-08-10 18:18:11,989]  testing.INFO:line_124  select email, name from users where id = 1
+[2017-08-10 18:18:11,989]  testing.INFO:line_124  select email, name from users where id = 2
+[2017-08-10 18:18:11,989]  testing.INFO:line_38  帐户Lean转账10元钱至帐户Lean1成功
