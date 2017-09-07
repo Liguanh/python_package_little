@@ -8,7 +8,7 @@ test urlib model
 
 from urllib import request
 
-url = 'http://www.baidu.com'
+url = 'http://en.wikipedia.org/robots.txt'
 
 req= request.Request(url)
 
